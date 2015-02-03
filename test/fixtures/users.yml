@@ -1,0 +1,24 @@
+
+bob:
+  name: bob
+  active: true
+
+sally:
+  name: sally
+  active: true
+
+jim:
+  name: jim
+  active: true
+
+joan:
+  name: joan
+  active: false
+
+roger:
+  name: roger
+  active: false
+
+anne:
+  name: anne
+  active: true
