@@ -1,0 +1,1 @@
+Minimal app for exploring issues with scoping and filtering ActiveRecord based on joins

@@ -1,7 +1,13 @@
 
 %b
-  = "From: #{message.from_user.name}"
+  - if message.from_user
+    = "From: #{message.from_user.name}"
+  - else
+    = 'From: <inactive_user>'
   %br
-  = "To: #{message.to_user.name}"
+  - if message.to_user
+    = "To: #{message.to_user.name}"
+  - else
+    = 'To: <inactive_user>'
   %br
 = message.body

@@ -15,10 +15,14 @@ joan:
   name: joan
   active: false
 
+oliver:
+  name: oliver
+  active: false
+
 roger:
   name: roger
-  active: false
+  active: null
 
 anne:
   name: anne
-  active: true
+  active: null
